@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+body {
+    font-family: 'Inter', sans-serif;
+    background-color: #E5E5E5;
+    color: #0A3871;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 800px;
+}
+
+.header {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.logo {
+    width: 50px;
+}
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+.input-section, .output-section {
+    width: 48%;
+}
+
+.input-section h2 {
+    margin-bottom: 10px;
+}
+
+textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    margin-bottom: 10px;
+}
+
+.buttons {
+    
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.primary-button, .secondary-button {
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    border: none;
+}
+
+.primary-button {
+    background-color: #0A3871;
+    color: white;
+}
+
+.secondary-button {
+    background-color: #fff;
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+.placeholder-img {
+    width: 100%;
+    height: auto;
+}
+
+#output-text-placeholder {
+    text-align: center;
+    color: #aaa;
+    text-align: justify;
+}
+
+strong {
+    color: #0A3871;
+}
+
+textarea[readonly] {
+    display: none;
+}
+
+.output-section button {
+    margin-top: 10px;
+    display: none;
+}
