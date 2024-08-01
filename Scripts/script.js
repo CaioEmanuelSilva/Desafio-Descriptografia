@@ -41,6 +41,11 @@ document.addEventListener('DOMContentLoaded', () => {
         return text.replace(/[eioua]/g, match => map[match]);
     }
 
+    /**
+     * Decrypts the given text by replacing specific patterns with their corresponding values.
+     * @param {string} text - The text to be decrypted.
+     * @returns {string} The decrypted text.
+     */
     function decryptText(text) {
         const map = {
             'enter': 'e',

@@ -1,102 +1,148 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+/**
+ * This CSS file contains the styling for the Desafio Descriptografia web application.
+ * It imports the 'Inter' font from Google Fonts and defines the styles for various elements.
+ */
 
 body {
+    /* Sets the font family to 'Inter' and fallback to sans-serif */
     font-family: 'Inter', sans-serif;
+    /* Sets the background color to light gray */
     background-color: #E5E5E5;
+    /* Sets the text color to dark blue */
     color: #0A3871;
+    /* Removes the default margin */
     margin: 0;
+    /* Centers the content vertically and horizontally */
     display: flex;
     justify-content: center;
     align-items: center;
+    /* Sets the height of the body to 100% of the viewport height */
     height: 100vh;
 }
 
 .container {
+    /* Sets the background color to white */
     background-color: white;
+    /* Adds padding around the container */
     padding: 20px;
+    /* Adds rounded corners to the container */
     border-radius: 8px;
+    /* Adds a box shadow to the container */
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    /* Sets the width of the container to 90% of its parent element */
     width: 90%;
+    /* Sets the maximum width of the container to 800px */
     max-width: 800px;
 }
 
 .header {
+    /* Centers the header content horizontally */
     display: flex;
     justify-content: flex-start;
+    /* Aligns the header content vertically */
     align-items: center;
+    /* Adds margin at the bottom of the header */
     margin-bottom: 20px;
 }
 
 .logo {
+    /* Sets the width of the logo image */
     width: 50px;
 }
 
 .content {
+    /* Centers the content horizontally and adds space between the elements */
     display: flex;
     justify-content: space-between;
 }
 
 .input-section, .output-section {
+    /* Sets the width of the input and output sections */
     width: 48%;
 }
 
 .input-section h2 {
+    /* Adds margin at the bottom of the heading */
     margin-bottom: 10px;
 }
 
 textarea {
+    /* Sets the width of the textarea to 100% */
     width: 100%;
+    /* Adds padding around the textarea */
     padding: 10px;
+    /* Adds a border to the textarea */
     border: 1px solid #ccc;
+    /* Adds rounded corners to the textarea */
     border-radius: 4px;
+    /* Adds margin at the bottom of the textarea */
     margin-bottom: 10px;
 }
 
 .buttons {
-    
+    /* Centers the buttons horizontally and adds space between them */
     display: flex;
     justify-content: space-between;
+    /* Adds margin at the bottom of the buttons */
     margin-bottom: 10px;
 }
 
 .primary-button, .secondary-button {
+    /* Adds padding to the buttons */
     padding: 10px 20px;
+    /* Adds rounded corners to the buttons */
     border-radius: 4px;
+    /* Sets the cursor to pointer */
     cursor: pointer;
+    /* Removes the default button border */
     border: none;
 }
 
 .primary-button {
+    /* Sets the background color of the primary button to dark blue */
     background-color: #0A3871;
+    /* Sets the text color of the primary button to white */
     color: white;
 }
 
 .secondary-button {
+    /* Sets the background color of the secondary button to white */
     background-color: #fff;
+    /* Sets the text color of the secondary button to dark gray */
     color: #333;
+    /* Adds a border to the secondary button */
     border: 1px solid #ccc;
 }
 
 .placeholder-img {
+    /* Sets the width of the placeholder image to 100% */
     width: 100%;
+    /* Sets the height of the placeholder image to auto */
     height: auto;
 }
 
 #output-text-placeholder {
+    /* Centers the text in the output text placeholder */
     text-align: center;
+    /* Sets the color of the text in the output text placeholder to light gray */
     color: #aaa;
+    /* Justifies the text in the output text placeholder */
     text-align: justify;
 }
 
 strong {
+    /* Sets the color of the strong element to dark blue */
     color: #0A3871;
 }
 
 textarea[readonly] {
+    /* Hides the readonly textarea */
     display: none;
 }
 
 .output-section button {
+    /* Adds margin at the top of the button in the output section */
     margin-top: 10px;
+    /* Hides the button in the output section */
     display: none;
 }
